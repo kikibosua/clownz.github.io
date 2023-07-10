@@ -1,0 +1,938 @@
+.container{
+  max-width:1890px;
+  margin-top:30px ;
+  margin-bottom: 20px;
+  margin-left:18px ;
+  margin-right: 18px;
+  padding: 0px 15px;
+}
+.header{
+  color: rgb(61, 61, 61);
+  display: block;
+  font-family: "Barlow Semi Condensed";
+  font-size: 14px;
+  line-height: 23px;
+  width: 100%;
+  height: auto;
+ }
+.label-header{
+  display: flex;
+  align-items: center;
+  font-family: "Barlow Semi Condensed";
+  font-size: 14px;
+  line-height: 23px;
+  width: 100%;
+ 
+}
+.nav-left{
+  display: block;
+  font-family: "Barlow Semi Condensed";
+  font-size: 14px;
+  line-height: 23px;
+  max-width: 33%;
+  padding-left: 0;
+  width: 458px;
+}
+.nav-left-info > li{
+  display: inline;
+  list-style: none;
+}
+.nav-left-item{
+ margin-right: 27px;
+ padding-top: 20px;
+ padding-left: 20px;
+ padding-bottom: 20px;
+}
+.nav-left-item > a{
+  text-decoration: none;
+  color: inherit;
+  cursor: auto;
+}
+.logo-wrapper{
+  background-size: auto;
+  color: rgb(6, 87, 163);
+  font-family: "Barlow Semi Condensed";
+  font-size: 14px;
+  line-height: 23px;
+  max-width: 33%;
+  margin-top: 5px;
+}
+.center-block{
+  margin-left: 79px;
+  margin-right: 79px;
+  max-width: 100%;
+}
+.nav-right-utility{
+  display: flex;
+  font-family: "Barlow Semi Condensed";
+  font-size: 14px;
+  line-height: 23px;
+  padding-left: 0;
+  justify-content: flex-end;
+  width: 458px;
+}
+.nav-right-account > li{
+  display: inline;
+  list-style-type: none;
+}
+.nav-right-item > a{
+  text-decoration: none;
+  color: inherit;
+  cursor: auto;
+}
+.menu-header{
+/* justify-content: space-between; */
+  display: flex;
+  justify-content: center;
+  font-family:"Barlow Semi Condensed" ;
+  font-size: 14px;
+  color: rgb(61, 61, 61);
+  line-height: 23px;
+}
+.main-menu{
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding:0;
+  color: rgb(61, 61, 61);
+}
+.main-menu li{
+  position: relative;
+}
+
+.main-menu li a{
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: rgb(61, 61, 61);
+  z-index: 2;
+}
+.main-menu ul.sub-menu{
+  position: absolute;
+  width: 200px;
+  padding: 15px 0px;
+  list-style: none;
+  display: none;
+  color: rgb(61, 61, 61);
+  background-color: rgb(247, 247, 247);
+  z-index: 2;
+}
+
+
+.main-menu li:hover > ul.sub-menu{
+  display: block;
+}
+.main-menu ul.sub-menu a{
+  border-bottom: 1px solid rgb(247, 247, 247);
+  left: 0;
+}
+.main-menu ul.sub-menu li:hover>a{
+  border-bottom: 1px solid rgb(220, 244, 244);
+  color: red;
+}
+.main-menu ul.sub-menu li:last-child a{
+  border: none;
+}
+.main-menu ul.sub-menu ul.sub-menu{
+  right: -100%;
+    top: -15px;
+    z-index: 1;
+}
+.sub-menu .had-child {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+.bx-size{
+  width: 20px;
+  height: 20px;
+}
+.pd{
+  padding-right:34px ;
+}
+.pd-26{
+  padding-right: 26px;
+}
+.mg{
+  margin-left: 46px;
+}
+.mg-nav{
+  margin-left: 56px;
+}
+.mg-logo{
+  margin-left: 139px;
+}
+.mega-box{
+  color: rgb(61, 61, 61);
+  display: block;
+  background-color: rgba(255, 255, 255, 0.95);
+  font-family:"Barlow Semi Condensed" ;
+  font-size: 14px;
+  list-style: none;
+  max-height: 600px;
+  padding: 10px;
+}
+.content{
+  border: 10px;
+  padding: 25px 40px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.main{
+  width: 25%;
+  list-style: 45px;
+}
+.section_banner{
+  padding: 20px 20px 0;
+  display: flex;
+}
+.evo-padding{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.evo-size{
+  width: 477px;
+  height: 704px;
+}
+.responsive > img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.responsive{
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  overflow: hidden;
+}
+.dl, ol, ul {
+  margin-top: 0;
+  margin-bottom: -1rem;
+}
+.footer{
+  display: block;
+  font-family:"Barlow Semi Condensed" ;
+  color: rgb(28, 28, 28);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23px;
+
+}
+.footer-menu{
+  margin: 0px 18px;
+  padding: 0px 15px;
+  display: flex;
+}
+.footer-contact > h3{
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  padding-top: 4px;
+  padding-bottom: 30px;
+  margin-bottom: -8px;
+}
+.padding-bottom20{
+  padding-bottom: 20px;
+}
+.footer-contact{
+  padding: 0px 15px;
+  width: 358px;
+  height: 155px;
+}
+.footer-contact-text{
+  color: #1C1C1C;
+  font-size: 16px;
+  font-family:"Barlow Semi Condensed" ;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27.2px;
+  letter-spacing: 0.25px;
+}
+.footer-contact-text > p{
+  padding-left: 25px;
+  margin-bottom: 15px;
+}
+.banner{
+  background: url(https://bizweb.dktcdn.net/100/414/728/themes/867455/assets/slider_1.jpg?1685614743610);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+.bg-footer{
+  margin-top: 60px;
+  font-family:"Barlow Semi Condensed" ;
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: 500;
+  display: block;
+  position: relative;
+}
+.footer-connected{
+  padding: 0 15px;
+  width: 330px;
+  height: 167px;
+}
+.footer-connected >h3{
+  padding-bottom: 30px;
+}
+.footer-connected-text >p{
+  margin-bottom:12px ;
+}
+.text-none{
+  text-decoration: none;
+  color: rgb(28, 28, 28);
+}
+.footer-widget{
+  display: flex;
+width: 396px;
+height: 167.56px;
+padding-top: 5px;
+flex-direction: column;
+align-items: flex-start;
+font-size: 16px;
+font-family:"Barlow Semi Condensed" ;
+font-weight: 500;
+line-height: 22px;
+padding: 0px 30px;
+}
+.footer-widget >h3{
+  padding-bottom: 30px;
+}
+.footer-widget-text ul.footer-hover li:hover>a{
+  color: red;
+}
+.footer-register{
+  width: 330px;
+height: 231.81px;
+}
+.footer-register >h3{
+  display: flex;
+width: 139.575px;
+height: 19px;
+flex-shrink: 0;
+margin-bottom: 36px;
+}
+.footer-register > p{
+  display: flex;
+  width: 355.748px;
+  height: 46.19px;
+  flex-direction: column;
+  justify-content: center;
+  color: #1C1C1C;
+  font-size: 16px;
+  font-family:"Barlow Semi Condensed" ;
+  font-weight: 500;
+  line-height: 27.2px;
+  padding-bottom: 19px;
+}
+.bx{
+  padding-right: 6px;
+}
+
+.bulletin-from{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  width: 100%;
+  height: 80px;
+  font-size: 14px;
+}
+.bulletin-text{
+  width: 188px;
+  height: 40px;
+  border-radius: 3px;
+  background: #F0F0F0;
+  border: none;
+}
+.bulletin-btn{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+width: 142px;
+height: 42px;
+background: #699C5D;
+border: none;
+}
+.bulletin-btn > span{
+  width: 91px;
+height: 23px;
+font-family:"Barlow Semi Condensed" ;
+font-weight: 500;
+font-size: 14px;
+line-height: 23px;
+color: #FFFFFF;
+}
+.footer-register-list > img{
+  padding-right: 9px;
+}
+.footer-copyright{
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+.btn-copyright{
+  width: 100%;
+  border: 1px solid #D5D5D5;
+}
+.bottom-text{
+  color: #3D3D3D;
+  text-align: center;
+  font-size: 16px;
+  font-family:"Barlow Semi Condensed" ;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27.2px;
+  letter-spacing: 0.25px;
+}
+.login{
+  width: 930px;
+  height: 448.72px;
+  margin: auto;
+}
+.login > h2{
+  color: #212B25;
+  text-align: center;
+  font-family:"Barlow Semi Condensed" ; 
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  height: 31px;
+  margin-bottom: 30px;
+}
+.social-login{
+margin-bottom: 10px;
+text-align: center;
+}
+.from-group{
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+  color: rgb(61, 61, 61);
+  display: block;
+  font-family:"Barlow Semi Condensed" ; 
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: 0.25px;
+  border: none;
+}
+.from-group > label{
+  margin-bottom: 10px;
+  font-weight: 500;
+    letter-spacing: 1.5px;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: left;
+}
+.from-group > input{
+  background: #f7f7f7;
+    height: 50px;
+    padding: 0 15px;
+    border: 1px solid transparent;
+    outline: none;
+    box-shadow: none;
+    display: block;
+    width: 100%;
+    font-size: 1em;
+    line-height: 1.5;
+    margin: 0;
+}
+.pull-xs-left{
+  color: rgb(0, 0, 0);
+  display: block;
+  font-family:"Barlow Semi Condensed" ; 
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: 0.25px;
+  padding-bottom: 20px;
+}
+.btn{
+  align-items: flex-start;
+  width:350px;
+height: 45px;
+background-color: rgb(25, 255, 59);
+border:none;
+color: rgb(0, 0, 0);
+font-family:"Barlow Semi Condensed" ; 
+font-size: 16px;
+font-weight: 700;
+padding: 0 28px;
+}
+.container-login{
+  margin-top:30px ;
+  margin-bottom: 20px;
+  margin-left: 18px;
+  margin-right: 18px;
+  padding: 0 15px;
+  width: 1440px;
+  height: auto;
+}
+.btn-link-style > a{
+  margin-top: 15px;
+    color: #dc4e3f;
+    display: block;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    font-family:"Barlow Semi Condensed" ; 
+    margin-bottom: 15px;
+}
+.text-login{
+  text-align: center;
+  font-family:"Barlow Semi Condensed" ; 
+  font-size: 14px;
+  color: rgb(61, 61, 61);
+  line-height: 23px;
+  letter-spacing: 0.25px;
+
+}
+.text-login > p > a {
+  color: #dc4e3f;
+  font-family:"Barlow Semi Condensed" ; 
+  text-decoration: none;
+}
+.shopping-cart{
+  margin-bottom: 10px;
+}
+.shopping-cart > h1{
+  color: rgb(28, 28, 28);
+  font-family:"Barlow Semi Condensed" ; 
+  display: block;
+  font-size: 26px;
+  font-weight: 400;
+  letter-spacing: 2.4px;
+  line-height: 28px;
+}
+.shopping-cart > h1 > span{
+  color: rgb(28, 28, 28);
+  font-family:"Barlow Semi Condensed" ; 
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2.4px;
+  line-height: 28px;
+}
+.shopping-cart > img{
+  width: 200px;
+  height: 141px;
+  justify-content: center;
+  display: flex;
+  margin: auto;
+}
+.main-img{
+  margin-bottom: 50px;
+  position: relative;
+}
+.main-img > img{
+  object-fit: cover;
+  max-width: 100%;
+   height: auto;
+}
+.main-content{
+  position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.main-content > button{
+  width: 270px;
+  height: 29px;
+  background-color: rgb(71, 71, 76);
+  border: none;
+}
+.main-content > button > a {
+  color: rgb(255, 255, 255);
+  font-family:"Barlow Semi Condensed" ; 
+  font-size: 14px;
+  line-height: 23px;
+  text-decoration: none;
+}
+.main-container{
+  padding: 0px 50px;
+  color: rgb(61, 61, 61);
+  display: block;
+  font-family:"Barlow Semi Condensed" ; 
+  font-size: 14px;
+  line-height: 23px;
+  width: 100%;
+}
+.main-blog > h1{
+  margin-bottom: 20px;
+  color: rgb(61, 61, 61);
+  font-family:"Barlow Semi Condensed" ; 
+  font-size: 36px;
+  line-height: 50px;
+  font-weight: 500;
+  text-align: center;
+}
+.blog-menu {
+ margin-top: 20px;
+}
+.blog-menu >h2{
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: rgb(61, 61, 61);
+    font-family:"Barlow Semi Condensed" ; 
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    padding-left: 14px;
+}
+.evo-list-blogs{
+  margin: 0px -15px;
+  display: block;
+}
+.evo-1{
+  padding: 0px 15px;
+  margin-bottom: 25px;
+  color: rgb(61, 61, 61);
+  display: flex;
+  float: left;
+  font-size: 14px;
+  line-height: 23px;
+  width: 703px;
+}
+.evo-1 > a > img{
+    width: 336px;
+    height: 420px;
+    color: #0657a3;
+    text-decoration: none;
+    background: transparent;
+}
+.evo-1-text{
+  color: rgb(61, 61, 61);
+  display: block;
+  font-family:"Barlow Semi Condensed" ; 
+  font-size: 14px;
+  line-height: 23px;
+  padding-left: 15px;
+  width: 336px;
+}
+.evo-1-text > h3 > a {
+  color: rgb(0, 0, 0);
+  font-family:"Barlow Semi Condensed" ; 
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 33px;
+  text-decoration: none;
+}
+.evo-1-text > button{
+  padding: 5px 52px;
+  background-color: rgb(255, 255, 255);
+  border: 0.8px solid rgb(217, 217, 217);
+  height: 34px;
+}
+.evo-2{
+  padding: 0px 15px;
+  margin-bottom: 25px;
+  color: rgb(61, 61, 61);
+  display: flex;
+  font-size: 14px;
+  line-height: 23px;
+  width: 703px;
+  margin-left: 90px;
+}
+.evo-2 > a > img{
+    width: 336px;
+    height: 336px;
+    color: #0657a3;
+    text-decoration: none;
+    background: transparent;
+}
+.evo-3{
+  padding: 0px 15px;
+  margin-bottom: 25px;
+  color: rgb(61, 61, 61);
+  display: flex;
+  font-size: 14px;
+  line-height: 23px;
+  width:100%;
+  height: 224px;
+  flex-wrap: wrap;
+}
+.evo-3 > a > img{
+  width: 336px;
+  height: 224px;
+}
+.evo-4{
+  display:flex;
+  margin-top: 20px;
+  width: 100%;
+  color: #000;
+  flex-wrap: wrap;
+}
+.evo-4 > a > img{
+  width: 336px;
+  height: 224px;
+}
+.page-text{
+  margin: 0px 20px;
+  color: rgb(61, 61, 61);
+  font-family:"Barlow Semi Condensed" ;
+}
+.page-item > a{
+  text-decoration: none;
+  padding: 0px 15px;
+  list-style: none;
+  color: rgb(61, 61, 61);
+}
+.page-number > ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.mg-top{
+  margin-top: 10px;
+}
+.aside-content{
+  padding: 0px 15px;
+  color: rgb(61, 61, 61);
+  display: block;
+  font-family:"Barlow Semi Condensed" ;
+  font-size: 14px;
+  line-height: 23px;
+  width: 225px;
+}
+.nav-navbar-pills{
+  width: 234px;
+  list-style: none;
+}
+.nav-item > a{
+  color: rgb(111, 111, 111);
+  font-family:"Barlow Semi Condensed" ;
+  font-size: 14px;
+  line-height: 23px;
+  text-decoration: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 25px;
+}
+.list-thumb > li > a > img{
+  width: 90px;
+  height: 112px;
+}
+.list-thumb > li {
+  list-style: none;
+  margin-bottom: 15px;
+}
+.list-thumb2 > li > a > img{
+  width: 611px;
+  height: 760px;
+  padding: 0px 15px;
+  margin-bottom: 15px;
+}
+.list-thumb2 > li{
+  list-style: none;
+}
+.details-pro-text{
+  width: 339px;
+  height: auto;
+}
+.details-pro-text > h1{
+  margin-bottom: 5px;
+  color: rgb(112, 112, 112);
+  display: block;
+  font-family:"Barlow Semi Condensed" ;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 29px;
+}
+.details-pro-text > p{
+  border-top: 1px solid #BABABA;
+border-bottom: 1px solid #BABABA;
+height: 40px;
+padding: 12px 399.428px 13.8px 0px;
+color: rgb(21, 21, 21);
+font-size: 18px;
+font-weight: 700;
+}
+.product-content{
+  margin-bottom: 20px;
+  color: rgb(61, 61, 61);
+  font-family:"Barlow Semi Condensed" ;
+  font-size: 16px;
+  width: 350px;
+}
+.product-content > b {
+  color: #707070;
+  font-family:"Barlow Semi Condensed" ;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 27.2px;
+letter-spacing: 0.25px;
+margin-top: 5px;
+margin-bottom: 15px;
+}
+.product-content > p {
+  color: #3D3D3D;
+  font-family:"Barlow Semi Condensed" ;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 27.2px;
+letter-spacing: 0.25px;
+margin-bottom: 15px;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  font-family:"Barlow Semi Condensed" ;
+}
+.product-list {
+  width: 100%;
+  padding: 0 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  font-family:"Barlow Semi Condensed" ;
+}
+.product-item {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  height: max-content;
+  overflow: hidden;
+  position: relative;
+  font-family:"Barlow Semi Condensed" ;
+}
+.product-img {
+  position: relative;
+  cursor: pointer;
+}
+.product-item:hover > .product-img > img:nth-child(2) {
+  display: block;
+  background-color: aqua;
+  animation: show 0.4s linear forwards;
+}
+.product-item:hover > .product-content {
+  transition: 0.3s;
+  opacity: 0;
+}
+.product-item:hover > .product-btn {
+  bottom: 0px;
+  transition: 0.5s;
+}
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+.product-img > img {
+  width: 100%;
+  object-fit: cover;
+}
+.product-img > img:nth-child(2) {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.product-img > span {
+  background: rgb(65, 0, 153);
+  z-index: 1;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 15px;
+  position: absolute;
+  top: 3%;
+  font-family:"Barlow Semi Condensed" ;
+  left: 0;
+}
+.product-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+  position: relative;
+  font-family:"Barlow Semi Condensed" ;
+  opacity: 0.75;
+}
+.product-btn {
+  width: 100%;
+  border: 1px solid #000;
+  color: #000;
+  padding: 17px 0;
+  position: absolute;
+  bottom: -50.7px;
+  font-family:"Barlow Semi Condensed" ;
+  text-decoration: none;
+  text-align: center;
+}
+.product-btn:hover {
+  background: #000;
+  color: #fff;
+  transition: 0.3s;
+  transform-origin: center;
+  text-decoration: none;
+}
+.menu-list{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 29px;
+  padding-right: 25px;
+
+}
+.menu-list > h2 > a{
+  color: rgb(61,61,61);
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  letter-spacing: 2px;
+  line-height: 30px;
+  vertical-align: top;
+  margin: 0 20px;
+  font-family:"Barlow Semi Condensed" ;
+}
+.menu-list > h2 > a > hr{
+  width: 50px;
+  height: 2px;
+  background: #000;
+text-align: center;
+margin: auto;
+margin-top: 10px;
+}
